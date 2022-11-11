@@ -9,6 +9,9 @@ module.exports = {
         sky: colors.sky,
         cyan: colors.cyan,
       },
+      backgroundImage: {
+        'noise-background': "url('/assets/noise.png')",
+      },
     },
   },
   variants: {

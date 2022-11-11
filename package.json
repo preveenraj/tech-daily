@@ -1,4 +1,5 @@
 {
+  "version": "0.1.0",
   "description": "A foundation for scalable desktop apps",
   "keywords": [
     "electron",
@@ -21,17 +22,10 @@
   },
   "license": "MIT",
   "author": {
-    "name": "Electron React Boilerplate Maintainers",
-    "email": "electronreactboilerplate@gmail.com",
-    "url": "https://electron-react-boilerplate.js.org"
+    "name": "Preveen Raj",
+    "email": "preveenraj.dev@gmail.com",
+    "url": "https://preveenraj.com"
   },
-  "contributors": [
-    {
-      "name": "Amila Welihinda",
-      "email": "amilajack@gmail.com",
-      "url": "https://github.com/amilajack"
-    }
-  ],
   "main": "./src/main/main.ts",
   "scripts": {
     "build": "concurrently \"npm run build:main\" \"npm run build:renderer\"",
@@ -144,6 +138,7 @@
     "electron-builder": "^23.3.3",
     "electron-devtools-installer": "^3.2.0",
     "electron-notarize": "^1.2.1",
+    "electron-packager": "^17.1.1",
     "electron-rebuild": "^3.2.9",
     "electronmon": "^2.0.2",
     "eslint": "^8.22.0",
@@ -189,8 +184,8 @@
     "webpack-merge": "^5.8.0"
   },
   "build": {
-    "productName": "ElectronReact",
-    "appId": "org.erb.ElectronReact",
+    "productName": "TechDailyDesktop",
+    "appId": "org.erb.TechDailyDesktop",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
     "files": [
